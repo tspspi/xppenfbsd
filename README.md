@@ -3,6 +3,14 @@
 A small userspace daemon that allows simple operation of the [XP-Pen Deco Mini7 V2](https://amzn.to/4kPG1C7)
 (_note_: affiliate link) on FreeBSD (will be extended to different types of tablets most likely later on).
 
+* [Rationale / some history](#rationale--some-history)
+* [Introduction](#introduction)
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Usage](#usage)
+
+![](https://raw.githubusercontent.com/tspspi/xppenfbsd/refs/heads/master/doc/img01.png)
+
 ## Rationale / some history
 
 This repository emerged out of the frustration that it has been hard to get an otherwise excellent
