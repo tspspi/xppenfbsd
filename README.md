@@ -3,6 +3,8 @@
 A small userspace daemon that allows simple operation of the [XP-Pen Deco Mini7 V2](https://amzn.to/4kPG1C7)
 (_note_: affiliate link) on FreeBSD (will be extended to different types of tablets most likely later on).
 
+Note that parts of this project have been vibe-coded due to time constraints.
+
 * [Rationale / some history](#rationale--some-history)
 * [Introduction](#introduction)
 * [Requirements](#requirements)
