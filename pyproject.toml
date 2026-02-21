@@ -1,0 +1,41 @@
+[build-system]
+requires = [
+    "setuptools>=69",
+    "wheel",
+    "setuptools-git-versioning"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xppenfbsd"
+version = "0.0.1"
+description = "FreeBSD XP-Pen unlocker and evdev bridge"
+authors = [
+    {name = "Thomas Spielauer", email = "pypipackages01@tspi.at"}
+]
+readme = "README.md"
+license = "BSD-3-Clause"
+license-files = [ "LICENSE.md" ]
+requires-python = ">=3.11"
+dependencies = [
+    "pyusb>=1.2",
+]
+
+[project.urls]
+"Homepage" = "https://www.tspi.at/TODO"
+
+[project.scripts]
+xppen-fbsd-daemon = "xppen_mini7_v2_fbsd.cli:main"
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[tool.setuptools]
+packages = ["xppen_mini7_v2_fbsd"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+xppen_mini7_v2_fbsd = ["py.typed"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["*.pyc"]
